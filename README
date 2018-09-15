@@ -237,6 +237,8 @@ queue and tag the outgoing frames with the corresponding 802.1p priority value.
 Set up the multi-queue qdisc for the selected interface:
 
 # tc qdisc add dev ethX root handle 1: multiq
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmnirgude%2Fopenlldp.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmnirgude%2Fopenlldp?ref=badge_shield)
+
 
 Setting the queue_mapping in a TC filter allows the ixgbe driver to classify a
 packet into a queue. Here is an example of a filter to cause iSCSI traffic
@@ -566,3 +568,6 @@ Support
   Contact Information:
   LLDP-devel Mailing List <lldp-devel@open-lldp.org>
   Intel Corporation, 5200 N.E. Elam Young Parkway, Hillsboro, OR 97124-6497
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmnirgude%2Fopenlldp.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmnirgude%2Fopenlldp?ref=badge_large)
